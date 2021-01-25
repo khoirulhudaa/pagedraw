@@ -1,0 +1,293 @@
+body {
+  overflow: hidden;
+}
+
+.boardPage {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.boardPage .bar {
+  position: relative;
+  overflow: hidden;
+}
+
+.boardPage .drawBar {
+  width: 72%;
+  background-color: rgb(255, 255, 255);
+}
+
+.boardPage .settBar {
+  width: 28%;
+  background-color: rgb(66, 66, 66);
+}
+
+.boardPage .settBar.darkBar {
+  width: 28%;
+  background-color: rgb(240, 240, 240);
+  color: white;
+}
+
+.settBar h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(20, 255, 184);
+}
+
+.title-bar {
+  padding: 14px 20px;
+}
+
+.control-sett {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.control-sett div {
+  position: relative;
+  padding: 13px;
+  width: 100%;
+  height: auto;
+}
+
+.control-sett span {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(20, 255, 184);
+}
+
+.control-sett ul {
+  position: relative;
+  width: 105%;
+  display: flex;
+}
+
+.li-mode {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin: 0 5px 0 0;
+  transition: 0.3s;
+  font-size:  32px;
+}
+
+.actived-modes {
+   background-color: rgb(20, 255, 184);
+}
+
+.li-colors {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin: 0 5px 0 0;
+  transition: 0.3s;
+}
+
+.actived-color {
+top: 10px;
+}
+
+.li-colors2 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px;
+  border-radius: 20px;
+  margin: 0 5px 0 0;
+  transition: 0.3s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(39, 39, 39);
+  font-weight: bold;
+  text-align: center;
+}
+
+.li-colors:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.li-colors2:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: rgb(110, 110, 110);
+}
+
+.li-colors2:active {
+  top: 10px;
+}
+
+.actived-line2 {
+  top: 10px;
+}
+
+#li-colorsX1 {
+  background-color: rgb(255, 253, 253);
+}
+
+#li-colorsX2 {
+  background-color: rgb(204, 204, 204);
+}
+
+#li-colors {
+  background-color: black;
+}
+
+#li-colors1 {
+  background-color: orange;
+}
+
+#li-colors2 {
+  background-color: rgb(255, 238, 0);
+}
+
+#li-colors3 {
+  background-color: rgb(200, 255, 0);
+}
+
+#li-colors4 {
+  background-color: rgb(0, 255, 170);
+}
+
+#li-colors5 {
+  background-color: rgb(0, 247, 255);
+}
+
+#li-colors6 {
+  background-color: rgb(0, 132, 255);
+}
+
+#li-colors7 {
+  background-color: rgb(174, 0, 255);
+}
+
+#li-colors8 {
+  background-color: rgb(255, 0, 55);
+}
+
+.li-line {
+  position: relative;
+  width: 100px;
+  margin: 0 10px;
+  text-align: center;
+  padding: 6px 0;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(29, 29, 29);
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+
+.li-line:hover {
+  position: relative;
+  background-color: rgb(75, 75, 75);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actived-lines {
+    top: 10px;
+}
+
+.li-bg {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(65, 65, 65);
+  border-radius: 40px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.li-bg:hover {
+  position: relative;
+  cursor: pointer;
+  transform: scale(1.12);
+  transition: 0.3s;
+}
+
+.actived-bg {
+  top: 10px;
+}
+
+#line-bg1 {
+  background-color: rgb(255, 255, 255);
+}
+
+#line-bg2 {
+  background-color: rgb(199, 241, 9);
+}
+
+#line-bg3 {
+  background-color: rgb(85, 85, 85);
+}
+
+#line-bg4 {
+  background-color: rgb(255, 187, 0);
+}
+
+#line-bg5 {
+  background-color: rgb(9, 194, 251);
+}
+
+#line-bg6 {
+  background-color: rgb(150, 150, 250);
+}
+
+.export {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.btn-export {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 13px 10px;
+  text-align: center;
+  font-weight: 500;
+  background-color: rgb(20, 255, 184);
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn-export.darkEx {
+  background-color: rgb(20, 255, 184);
+  color: rgb(42, 42, 42);
+}
+
+.btn-export:hover {
+  transition: 0.3s;
+  background-color: rgb(161, 161, 161);
+}
+
+button:active {
+  border: none;
+  outline: none;
+}
+
+.control-sett i {
+  position: relative;
+  background-color: rgb(20, 255, 184);
+  border-radius: 35px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding: 4px;
+}

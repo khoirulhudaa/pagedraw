@@ -1,0 +1,78 @@
+.mode {
+    position: absolute;
+    width: 110px;
+    height: auto;
+    top: 10px;
+    left: 20px;
+    border-radius: 40px;
+    padding: 3px 3px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(70, 70, 70);
+}
+
+.btn-mode {
+    position: relative;
+    left: 1px;
+    width: 39px;
+    height: 39px;
+    border-radius: 90px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    transform: scale(0.94);
+}
+
+.btn-mode.dark {
+    position: relative;
+    left: 65px;
+    transition: 0.3s;
+}
+
+.btn-mode:hover {
+    position: relative;
+    cursor: pointer;
+    transform: scale(1);
+    background-color: rgb(240, 240, 240);
+    transition: 0.3s;
+}
+
+.modes {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  width: auto;
+  display: block;
+  height: auto;
+  border-radius: 40px;
+  padding:  3px 1px;
+}
+
+.list-modes {
+  position: relative;
+  z-index: 2;
+  margin: 20px 4px;
+}
+
+.list-modes:hover i {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.modes i {
+}
+
+.modes .i-modes {
+  color: black;
+  transition: 0.3s;
+  border-radius: 30px;
+  padding: 5px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.actived-modes {
+   background-color: rgb(20, 255, 184);
+}
